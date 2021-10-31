@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#090909</color>
+    <color name="white">#F1F1F1</color>
+    <color name="blue">#FF333366</color>
+    <color name="toolbar">#FF4B4B8B</color>
+    <color name="light_blue">#FFDEDCFF</color>
+    <color name="slide">#FFA5A6F6</color>
+    <color name="background_begin">#FFAEAFF7</color>
+    <color name="avatar_one">#FFFFD16C</color>
+    <color name="avatar_two">#FFCA9FD3</color>
+    <color name="avatar_three">#FFFFB8CB</color>
+    <color name="avatar_four">#FF54D3D0</color>
+    <color name="avatar_five">#FFD8EF91</color>
+</resources>
