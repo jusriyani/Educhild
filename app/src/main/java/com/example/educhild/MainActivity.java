@@ -15,5 +15,27 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //Initialize and assign variable
+        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
+
+        //set Home selected
+        bottomNavigationView.setSelectedItemId(R.id.home);
+
+        //perform ItemSelectedListener
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener(){
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem){
+                switch (menuItem.getItemId()){
+                    case R.id.home:
+                        return true;
+                    case R.id.adventure:
+                        startActivity(new Intent(getApplicationContext(),AdventureActivity.class));
+                        overridePendingTransition(0,0);
+                        return true;
+                }
+                return false;
+            }
+        });
     }
 }

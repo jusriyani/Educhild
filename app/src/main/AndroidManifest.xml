@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Educhild">
-        <activity android:name=".AdventureActivity"></activity>
+        <activity
+            android:name=".LoadingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ColorsActivity"
+            android:exported="true" />
+        <activity android:name=".AdventureActivity" />
         <activity android:name=".AvatarActivity" />
         <activity android:name=".ChildNameActivity" />
         <activity android:name=".OnboardingActivity" />
