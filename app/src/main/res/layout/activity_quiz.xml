@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue"
+    tools:context=".QuizActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/ic_back"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Quiz"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="175dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="214dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="597dp"
+        app:srcCompat="@drawable/cloud" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="239dp"
+        android:layout_height="107dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        app:srcCompat="@drawable/hiasan" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="141dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="328dp"
+        app:srcCompat="@drawable/ayamkuis" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="150dp"
+        android:layout_height="143dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="374dp"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="144dp"
+        app:srcCompat="@drawable/bebekkuis" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="156dp"
+        android:layout_height="143dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="217dp"
+        android:layout_marginBottom="328dp"
+        app:srcCompat="@drawable/gajahkuis" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="156dp"
+        android:layout_height="145dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="221dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="143dp"
+        app:srcCompat="@drawable/singakuis" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="342dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="497dp"
+        android:background="#F8F5F5"
+        android:backgroundTint="#DCFBFF"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Which is the elephant ?"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Educhild">
         <activity
+            android:name=".QuizActivity"
+            android:exported="true" />
+        <activity
+            android:name=".QuitActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AnimalActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FoodActivity"
+            android:exported="true" />
+        <activity
             android:name=".LoadingActivity"
             android:exported="true" />
         <activity

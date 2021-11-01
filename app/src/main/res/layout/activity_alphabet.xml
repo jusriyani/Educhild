@@ -1,0 +1,167 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDEDCFF"
+    tools:context=".AlphabetActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Alphabet"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="112dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="315dp"
+        app:srcCompat="@drawable/dcard" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="175dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="214dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="597dp"
+        app:srcCompat="@drawable/cloud" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="114dp"
+        android:layout_height="104dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="237dp"
+        android:layout_marginBottom="461dp"
+        app:srcCompat="@drawable/apakaicard" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="104dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="239dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="461dp"
+        app:srcCompat="@drawable/bcard" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="119dp"
+        android:layout_height="107dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginEnd="231dp"
+        android:layout_marginBottom="317dp"
+        app:srcCompat="@drawable/ccard" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="104dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="381dp"
+        android:layout_marginEnd="233dp"
+        android:layout_marginBottom="174dp"
+        app:srcCompat="@drawable/ecard" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="109dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="379dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="171dp"
+        app:srcCompat="@drawable/fcard" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="525dp"
+        android:layout_marginEnd="231dp"
+        android:layout_marginBottom="29dp"
+        app:srcCompat="@drawable/gcard" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="112dp"
+        android:layout_height="107dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="525dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="28dp"
+        app:srcCompat="@drawable/hcard" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</RelativeLayout>
