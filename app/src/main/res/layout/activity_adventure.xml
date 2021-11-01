@@ -47,6 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:backgroundTint="#DEDCFF"
+            android:onClick="btnNumber"
             app:layout_constraintEnd_toEndOf="@+id/imageButton3"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/imageButton3"
@@ -60,6 +61,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:backgroundTint="#DEDCFF"
+            android:onClick="btnAnimal"
             app:layout_constraintEnd_toEndOf="@+id/imageButton4"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/imageButton4"
@@ -73,6 +75,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:backgroundTint="#DEDCFF"
+            android:onClick="btnBody"
             app:layout_constraintEnd_toEndOf="@+id/imageButton5"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/imageButton5"
@@ -100,6 +103,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:backgroundTint="#DEDCFF"
+            android:onClick="btnColor"
             app:layout_constraintEnd_toEndOf="@+id/btnFood"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/btnFood"
@@ -126,6 +130,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:backgroundTint="#DEDCFF"
+            android:onClick="btnQuiz"
             app:layout_constraintEnd_toEndOf="@+id/imageButton12"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/imageButton12"
@@ -137,8 +142,10 @@
             android:layout_height="28dp"
             android:onClick="backtToHome"
             android:src="@drawable/ic_back"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="16dp" />
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/imageView12"

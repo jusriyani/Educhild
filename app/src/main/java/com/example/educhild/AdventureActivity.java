@@ -29,4 +29,24 @@ public class AdventureActivity extends AppCompatActivity {
         Intent myIntent = new Intent(this, AlphabetActivity.class);
         startActivity(myIntent);
     }
+    public void btnNumber(View view){
+        Intent myIntent = new Intent(this, NumberActivity.class);
+        startActivity(myIntent);
+    }
+    public void btnAnimal(View view){
+        Intent myIntent = new Intent(this, AnimalActivity.class);
+        startActivity(myIntent);
+    }
+    public void btnBody(View view){
+        Intent myIntent = new Intent(this, BodyActivity.class);
+        startActivity(myIntent);
+    }
+    public void btnColor(View view){
+        Intent myIntent = new Intent(this, ColorsActivity.class);
+        startActivity(myIntent);
+    }
+    public void btnQuiz(View view){
+        Intent myIntent = new Intent(this, QuizActivity.class);
+        startActivity(myIntent);
+    }
 }
