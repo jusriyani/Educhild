@@ -44,4 +44,8 @@ public class MainActivity extends AppCompatActivity {
         Intent myIntent = new Intent(this, AdventureActivity.class);
         startActivity(myIntent);
     }
+    public void parentsArea(View view){
+       Intent myIntent = new Intent(this, CommunityActivity.class);
+       startActivity(myIntent);
+    }
 }

@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Educhild">
-        <activity android:name=".BodyActivity"></activity>
+        <activity android:name=".ArticleActivity"></activity>
+        <activity android:name=".CommunityActivity" />
+        <activity android:name=".BodyActivity" />
         <activity android:name=".NumberActivity" />
         <activity
             android:name=".QuizActivity"
