@@ -22,8 +22,8 @@ public class AdventureActivity extends AppCompatActivity {
         startActivity(myIntent);
     }
     public void btnFood(View view) {
-        Intent myIntetnt = new Intent (this, FoodActivity.class);
-        startActivity(myIntetnt);
+        Intent myIntent = new Intent (this, FoodActivity.class);
+        startActivity(myIntent);
     }
     public void btnAlphabet(View view){
         Intent myIntent = new Intent(this, AlphabetActivity.class);
